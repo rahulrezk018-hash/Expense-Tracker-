@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <title>Expense tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Expense Tracker 💸</h1>
+  </div>
+  <div class="price-yt">
+    <p>Total Price</p>
+    <h1  id="Total"></h1>
+  </div>
+  <div class="input-main">
+    <div class="input-field">
+    <input class="input"type="text"placeholder="where did you spend it"id="input">
+    <input class="input" type="text"placeholder="Which ispend your money"id="number">
+    <button onclick="Add()">Add Transaction</button>
+    </div>
+  </div>
+  <div class="history-part">
+  <h3>History</h3>
+  </div>
+  <div id="showItems"></div>
+</body>
+<script src="main.js"></script>
+</html>
